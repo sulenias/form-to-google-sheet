@@ -2,7 +2,10 @@
 
 📚Membuat Form Daftar Hadir pakai HTML - CSS - Javascript
 
-# Submit a Form to Google Sheets | [Demo](https://form-to-google-sheets.surge.sh)
+# GitHub Pages
+  Link | https://sulenias.github.io/form-to-google-sheet/
+
+# Submit a Form to Google Sheets | [Demo](https://docs.google.com/spreadsheets/d/1hvmQ89XBFT2DNe4apAn_PEiHq7PBwu03T13s2UT5kXY/edit?usp=sharing)
 
 #### How to create an HTML form that stores the submitted form data in Google Sheets using plain 'ol JavaScript (ES6), [Google Apps Script](https://developers.google.com/apps-script/), [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) and [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData).
 
