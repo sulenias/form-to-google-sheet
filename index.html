@@ -1,93 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Pendaftaran</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
-
-<body>
-
-  <div class="container-fluid p-3">
-    <div class="row">
-      <div class="col-lg-6 col-md-8 col-sm-12 mx-auto">
-        <div class="text-center">
-          <img src="PERSEKUTUAN-removebg-preview.png" width="100px" alt="Logo PMDMY">
-          <p class="fw-bold h4 mt-3">Persekutuan Mahasiswa Distrik Mugi dan Yogosem Kabupaten Yahukimo di Jayapura</p>
-          <hr>
-          <h1 class="fw-bold text-warning">Form Data Mahasiswa</h1>
-        </div>
-
-        <div>
-          <form name="submit-to-google-sheet">
-
-            <div class="my-3">
-              <input name="Name" type="name" placeholder="Nama Lengkap" class="form-control form-control-lg" required>
-            </div>
-            <div class="my-3">
-              <input name="Email" type="email" placeholder="Email" class="form-control form-control-lg" required>
-            </div>
-            <div class="my-3">
-              <input name="Nomor WA" type="nomor_wa" placeholder="Nomor Hp/Whatsapp" class="form-control form-control-lg" required>
-            </div>
-
-            <button type="submit" class="btn btn-success btn-lg w-100 fw-bold link-warning">
-              <img src="send-icon.png" width="25px"> Kirim
-            </button>
-
-            <span id="msg"></span>
-
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- footer -->
-  <footer>
-    <div class="container-fluid2 p-3 bg-black text-light">
+  <body>
+    <div class="container-fluid p-3">
       <div class="row">
-        <div class="col-lg-6 col-md-8 col-sm-12 mx-auto d-flex justify-content-center">
-          <small>Holandia 2023. <i>Copyright&copy; By.</i> 
-            <a target="_blank" href="https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100078754921729%26mibextid%3DZbWKwL&e=AT021SE4XeKgZucssMx70ZWJ6uglBqvHywp25b6YqabIglHZBG0_cdmDKIrdUBKMzg2MUHVQcFyoIaQtwbuJ7VUomy-46RutFADjRAyaUkc6JtLUnZN7Y1HqYt942gswk7r29c15aB9ZYrkGmMLcXNGLmPkzVC4JgeGjew"
-              class="text-decoration-none link-warning"><b>Biro P&P</b></a>
-          </small>
+        <div class="col-lg-6 col-md-8 col-sm-12 mx-auto">
+          <div class="text-center">
+            <img
+              src="PERSEKUTUAN-removebg-preview.png"
+              width="100px"
+              alt="Logo PMDMY"
+            />
+            <p class="fw-bold h4 mt-3">
+              Persekutuan Mahasiswa Distrik Mugi dan Yogosem Kabupaten Yahukimo
+              di Jayapura
+            </p>
+            <hr />
+            <h1 class="fw-bold text-warning">Form Data Mahasiswa</h1>
+          </div>
+
+          <div>
+            <form name="submit-to-google-sheet">
+              <div class="my-3">
+                <input
+                  name="Name"
+                  type="name"
+                  placeholder="Nama Lengkap"
+                  class="form-control form-control-lg text-dark"
+                  required
+                />
+              </div>
+              <div class="my-3">
+                <input
+                  name="Email"
+                  type="email"
+                  placeholder="Email"
+                  class="form-control form-control-lg"
+                  required
+                />
+              </div>
+              <div class="my-3">
+                <input
+                  name="Nomor WA"
+                  type="nomor_wa"
+                  placeholder="Nomor Hp/Whatsapp"
+                  class="form-control form-control-lg"
+                  required
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-success btn-lg w-100 fw-bold link-warning"
+              >
+                <img src="send-icon.png" width="25px" /> Kirim
+              </button>
+
+              <span id="msg"></span>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
-  
 
+    <!-- footer -->
+    <footer>
+      <div class="container-fluid2 p-3 bg-black text-light">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-8 col-sm-12 mx-auto d-flex justify-content-center"
+          >
+            <small
+              >Holandia 2024. <i>Copyright&copy; By.</i>
+              <a
+                target="_blank"
+                href="https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100078754921729%26mibextid%3DZbWKwL&e=AT021SE4XeKgZucssMx70ZWJ6uglBqvHywp25b6YqabIglHZBG0_cdmDKIrdUBKMzg2MUHVQcFyoIaQtwbuJ7VUomy-46RutFADjRAyaUkc6JtLUnZN7Y1HqYt942gswk7r29c15aB9ZYrkGmMLcXNGLmPkzVC4JgeGjew"
+                class="text-decoration-none link-warning"
+                ><b>Biro Pendidikan & Penalaran (PMDMY)</b></a
+              >
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbywN3iz1xxKobjj3WuOtnOrDL041l7HbSpAwP8yx8AiP6Aaqj1hr_P4VfN2nqogXxI_/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
 
-
-
-  <script>
-    const scriptURL =
-      'https://script.google.com/macros/s/AKfycbywN3iz1xxKobjj3WuOtnOrDL041l7HbSpAwP8yx8AiP6Aaqj1hr_P4VfN2nqogXxI_/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, {
-          method: 'POST',
-          body: new FormData(form)
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, {
+          method: "POST",
+          body: new FormData(form),
         })
-        .then(response => {
-          msg.innerHTML = "Thank You For Subscribing!"
-          setTimeout(function () {
-            msg.innerHTML = ""
-          }, 5000)
-          form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-</body>
-
+          .then((response) => {
+            msg.innerHTML = "Thank You For Subscribing!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
